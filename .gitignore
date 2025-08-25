@@ -1,3 +1,7 @@
 /build/
 /debug/
 /ext/
+
+__pycache__/
+.vscode/
+.cache/
