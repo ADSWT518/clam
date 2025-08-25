@@ -3,7 +3,7 @@
 // CHECK: ^0  Number of total error checks$
 // CHECK: ^0  Number of total warning checks$
 
-#include "clam/clam.h"
+#include "/home/fgs/clam-master/include/clam/clam.h"
 
 int main() {
   int k = nd_int();

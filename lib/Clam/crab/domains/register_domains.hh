@@ -15,4 +15,8 @@ extern bool register_term_dis_int_domain();
 extern bool register_term_int_domain();  
 extern bool register_num_domain();  
 extern bool register_wrapped_interval_domain();
+extern bool register_swrapped_interval_domain();
+extern bool register_tnum_domain();
+extern bool register_stnum_domain();
+extern bool register_switv_stnum_domain();
 } // end namespace clam

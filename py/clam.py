@@ -319,11 +319,15 @@ def parseArgs(argv):
                           "- pk: polyhedra domain from Apron or Elina\n"
                           "- pk-pplite: polyhedra domain from PPLite\n"                   
                           "- rtz: reduced product of term-dis-int with zones\n"
-                          "- w-int: wrapped intervals\n",
+                          "- w-int: wrapped intervals\n"
+                          "- tnum: tnum domain\n"
+                          "- stnum: stnum domain\n"
+                          "- sw-int: swrapped intervals\n"
+                          "- switv-stnum: switv-stnum domain\n",
                     choices=['int', 'sign-const', 'ric', 'term-int',
                              'dis-int', 'term-dis-int', 'boxes',
                              'zones', 'soct', 'oct', 'pk', 'pk-pplite', 'rtz',
-                             'w-int'],
+                             'w-int', 'tnum', 'stnum', 'sw-int', 'switv-stnum' ],
                     dest='crab_dom', default='zones')
     p.add_argument('--crab-dom-params', dest='crab_dom_params', default=None,
                    help="Set abstract domain options STR=\"param1=val1:param2=val2:...\"",

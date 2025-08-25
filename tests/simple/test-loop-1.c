@@ -3,15 +3,15 @@
 // CHECK: ^0  Number of total safe checks$
 // CHECK: ^0  Number of total error checks$
 // CHECK: ^0  Number of total warning checks$
-#include "clam/clam.h"
+//#include "clam/clam.h"
 
-
-void __VERIFIER_assert(int cond) {
+void __VERIFIER_assert(int);
+/*void __VERIFIER_assert(int cond) {
   if (!(cond)) {
     ERROR: __VERIFIER_error();
   }
   return;
-}
+}*/
 
 /** 
    The fact x is unsigned makes this program hard to verify because it
@@ -28,5 +28,7 @@ int main(void) {
     x++;
   }
   __VERIFIER_assert(x >= 0x0fffffff);
+  //__CRAB_assert(x >= 0x0fffffff);
+  //__VERIFIER_assert(x == 1);
   return 0;
 }

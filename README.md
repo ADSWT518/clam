@@ -117,3 +117,5 @@ Clam provides a Python script called `clam.py` (located at `$DIR/bin` where `$DI
 users. The simplest command is `clam.py test.c`. Type `clam.py --help`
 for all options and read
 our [wiki](https://github.com/seahorn/clam/wiki/ClamUsage).
+
+

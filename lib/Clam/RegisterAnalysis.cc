@@ -9,6 +9,10 @@ void DomainRegistry::registerAllDomains() {
   register_interval_domain();
   register_ric_domain();
   register_wrapped_interval_domain();
+  register_swrapped_interval_domain();
+  register_tnum_domain();
+  register_stnum_domain();
+  register_switv_stnum_domain();
   register_dis_interval_domain();
   register_boxes_domain();
   register_split_dbm_domain();

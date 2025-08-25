@@ -14,3 +14,7 @@
 #include "terms_intervals.hh"
 #include "terms_zones.hh"
 #include "wrapped_intervals.hh"
+#include "swrapped_intervals.hh"
+#include "tnum.hh"
+#include "stnum.hh"
+#include "switv_stnum.hh"
