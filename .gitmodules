@@ -1,0 +1,11 @@
+[submodule "crab"]
+	path = crab
+	url = git@github.com:ADSWT518/crab.git
+[submodule "sea-dsa"]
+	path = sea-dsa
+	url = git@github.com:seahorn/sea-dsa.git
+	branch = dev14
+[submodule "llvm-seahorn"]
+	path = llvm-seahorn
+	url = git@github.com:seahorn/llvm-seahorn.git
+	branch = dev14
